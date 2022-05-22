@@ -26,3 +26,5 @@ spot (close|clothes)$: user.close_spot_list()
 
 # displays a small colored circle at the location of each saved spot
 spot [toggle] heatmap: user.toggle_spot_heatmap()
+
+# slow move: user.slow_mouse_move(500, 500)
